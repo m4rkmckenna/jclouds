@@ -50,7 +50,7 @@
     <test.ssh.keyfile />
 
     <jclouds.osgi.export>org.jclouds.sshj*;version="${project.version}"</jclouds.osgi.export>
-    <jclouds.osgi.import>org.jclouds*;version="${project.version}",*</jclouds.osgi.import>
+    <jclouds.osgi.import>org.jclouds*;version="${project.version}",!net.schmizz.sshj*,*</jclouds.osgi.import>
   </properties>
 
   <dependencies>
